@@ -177,7 +177,7 @@ const images = ref([
 ])
 
 const erkekler =ref([
-
+//jhgjhfgj
 ]);
 
 onMounted(async() => {
