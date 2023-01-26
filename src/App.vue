@@ -1,0 +1,57 @@
+<template>
+<Layout>
+  <div id="nav" v-if="$store.state.user">
+    <button @click="$store.dispatch('logout')">Logout</button>
+  </div>
+  <router-view/>
+  </Layout>
+</template>
+
+<script>
+
+import Layout from './components/Layout/Layout.vue'
+import { onBeforeMount } from 'vue'
+import { useStore } from 'vuex'
+
+export default {
+  name: 'App',
+  components: {
+    Layout,
+    
+  },
+  setup() {
+    const store = useStore()
+    onBeforeMount(() => {
+      store.dispatch('fetchUser')
+    })
+  }
+}
+</script>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
+
+#nav {
+  padding: 30px;
+}
+
+#nav a {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+#nav a.router-link-exact-active {
+  color: #42b983;
+}
+</style>

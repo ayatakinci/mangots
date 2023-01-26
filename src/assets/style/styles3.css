@@ -1,0 +1,62 @@
+.gKYNS {
+  left: 0;
+  z-index: 100;
+  display: inline-block;
+  font-size: 22px;
+  text-align: center;
+}
+.UX35V {
+  position: absolute;
+  top: 13px;
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+}
+.MzdzR {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 51px;
+  vertical-align: middle;
+}
+.HkwPH {
+  position: relative;
+}
+.HkwPH::after {
+  position: absolute;
+  top: 1px;
+  right: -1px;
+  display: block;
+  width: 6px;
+  height: 6px;
+  background: red;
+  border-radius: 50%;
+  content: "";
+}
+.WuF5z {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  z-index: 100;
+  text-align: center;
+  transform: translateX(-50%);
+}
+.bxs4S > :is(div) {
+  min-width: 215px;
+}
+.bxs4S > :is(div, span) {
+  z-index: 1001;
+}
+@media screen and (max-width: 1023px) {
+  .WuF5z {
+    top: 28px;
+    bottom: auto;
+    bottom: initial;
+  }
+  .bxs4S > :is(div) {
+    min-width: 0;
+    min-width: initial;
+    max-width: 200px !important;
+  }
+}

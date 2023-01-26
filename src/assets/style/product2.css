@@ -1,0 +1,104 @@
+.dDsAd {
+    color: var(--semantic-danger)
+}
+
+.OHp63 {
+    text-decoration: line-through
+}
+
+.MZfYt {
+    display: flex;
+    align-items: center
+}
+
+.Wz2cx {
+    margin: 0;
+    justify-content: center
+}
+
+.Bc91B {
+    white-space: nowrap
+}
+
+.t6ryY {
+    margin: 0
+}
+
+.FMxWZ {
+    display: flex;
+    flex-direction: column;
+    margin: 0
+}
+
+.FMxWZ.LioVg {
+    align-items: flex-start
+}
+
+.FMxWZ.Wz2cx {
+    align-items: center
+}
+
+.FMxWZ.S5XGZ {
+    align-items: flex-end
+}
+
+.Z4f5t {
+    display: flex;
+    flex-direction: column
+}
+
+.Z4f5t.edKQ2 {
+    align-items: flex-start
+}
+
+.Z4f5t.AbtpD {
+    align-items: flex-end
+}
+
+.c1VHT>span>span>span:nth-child(2) {
+    margin-left: .5rem
+}
+
+.PL11u {
+    align-items: center
+}
+
+.o5MyB {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.zGJdI {
+    flex-direction: row-reverse
+}
+
+.zGJdI.PvSij {
+    justify-content: flex-end
+}
+
+.zGJdI.RLXRU {
+    justify-content: flex-start
+}
+
+.PvSij {
+    align-items: center;
+    justify-content: flex-start
+}
+
+.PvSij>span {
+    margin-right: .5rem
+}
+
+.RLXRU {
+    align-items: center;
+    justify-content: flex-end
+}
+
+.RLXRU>span {
+    margin-left: .5rem
+}
+
+.i1z2r {
+    align-items: center;
+    justify-content: center
+}

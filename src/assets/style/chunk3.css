@@ -1,0 +1,128 @@
+.liDtv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 5.625rem;
+    height: 2.75rem;
+    margin: 0;
+    padding: 0 1rem;
+    color: var(--content-inverse);
+    background-color: var(--semantic-highlight-3);
+    border: 0;
+    outline: none;
+    cursor: pointer
+}
+
+.liDtv.N3h7z {
+    width: -moz-fit-content;
+    width: fit-content;
+    text-decoration: none
+}
+
+.liDtv:active,
+.liDtv:focus {
+    color: var(--content-inverse)
+}
+
+.liDtv:hover {
+    background-color: var(--semantic-highlight-3-hover)
+}
+
+.liDtv:active {
+    background-color: var(--semantic-highlight-3-active)
+}
+
+@media(max-width: 599px) {
+    .liDtv {
+        width: 100%;
+        max-width: none;
+        max-width: initial
+    }
+}
+
+.fX99Y {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+
+.bPYtU,
+.bPYtU:hover,
+.bPYtU:active {
+    background-color: var(--semantic-highlight-3-disabled)
+}
+
+.T9iru {
+    color: var(--content-1);
+    background-color: unset;
+    border: 1px solid var(--border-1)
+}
+
+.T9iru.JxN7Y {
+    border: 0
+}
+
+.T9iru:focus {
+    border-color: var(--border-1);
+    color: var(--content-1)
+}
+
+.T9iru:active,
+.T9iru:hover {
+    background-color: unset;
+    border-color: var(--border-2)
+}
+
+.T9iru:active {
+    color: var(--content-3)
+}
+
+.T9iru.bPYtU,
+.T9iru.bPYtU:hover,
+.T9iru.bPYtU:active {
+    color: var(--content-disabled);
+    border-color: var(--content-disabled)
+}
+
+.KlM7C::before {
+    font-size: 1.5rem
+}
+
+.KlM7C+.fX99Y {
+    margin-left: .4375rem
+}
+
+.a1azC {
+    background: linear-gradient(to right, var(--semantic-highlight-3) 50%, var(--semantic-highlight-3-hover) 50%);
+    background-position: bottom right;
+    background-size: 200% 200%;
+    border-color: transparent;
+    animation: a1azC 1.3s ease-out infinite
+}
+
+@keyframes a1azC {
+    from {
+        background-position: bottom right
+    }
+
+    to {
+        background-position: bottom left
+    }
+}
+
+.o4A5i {
+    width: 2.75rem;
+    min-width: 0;
+    height: 2.75rem;
+    padding: 0
+}
+
+.o4A5i.T9iru:active {
+    color: var(--content-1)
+}
+
+.o4A5i.N3h7z {
+    min-width: 2.75rem
+}

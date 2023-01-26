@@ -1,0 +1,91 @@
+.avatar-component {
+    cursor: pointer;
+    bottom: 16px;
+    right: 16px;
+    border-radius: 100px;
+    height: 44px;
+    width: 24px;
+    border: 1px solid rgb(215, 215, 216);
+    z-index: 1002;
+    box-sizing: content-box;
+    padding: 0 10px;
+    background-color: white;
+    margin-left: 0;
+    position: fixed;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.avatar-component img {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+.animation {
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: mango-widget-animation;
+    overflow: hidden;
+}
+
+.animation_text {
+    animation-duration: 4s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: mango-widget-animation-text;
+    opacity: 0;
+    font-family: MangoSans;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+    margin-right: -137px;
+    padding-right: 5px;
+}
+
+@keyframes mango-widget-animation {
+    0% {
+        background-position: 10px center;
+        width: 24px;
+    }
+    20% {
+        background-position: 10px center;
+        width: auto;
+    }
+    80% {
+        background-position: 10px center;
+        width: auto;
+    }
+    100% {
+        width: 24px;
+    }
+}
+
+@keyframes mango-widget-animation-text {
+    0% {
+        margin-right: -137px;
+        opacity: 0;
+    }
+    20% {
+        margin-right: -6px;
+        opacity: 1;
+    }
+    80% {
+        margin-right: -6px;
+        opacity: 1;
+    }
+    100% {
+        margin-right: -137px;
+        opacity: 0;
+    }
+}
